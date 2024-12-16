@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 750%;
+    width: 450px;
+    max-height: 100%;
+    min-height: 450px;
+    background-color: aqua;
+    margin: 25px auto 0;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+button {
+    padding: 5px;
+}
+
+
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    min-width: 400px;
+    max-height: 100%;
+    min-height: 150px;
+    border-radius: 7px;
+    border-style: none;
+    text-align: left;
+    background-color: rgb(244, 236, 244);
+    margin-top: 15px;
+    border-style: none;
+}
+
+.remove {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#creatNote{
+    background-color: green;
+    border-style: none;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
